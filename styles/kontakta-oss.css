@@ -3,11 +3,13 @@
   width: 400px;
   padding: 5px;
 }
+
 .container form {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
 label {
   font-weight: bold;
 }
@@ -19,10 +21,18 @@ input[type="text"] {
   padding: 5px 5px 0 5px;
   margin-bottom: 10px;
 }
+
 input[type="text"]:focus {
   outline: none;
   border-bottom: 1px solid lightgreen;
 }
+
 .kontakta-oss {
   text-align: center;
+}
+
+#button {
+  background-color: grey;
+  border: none;
+  color: white;
 }
