@@ -40,8 +40,9 @@ section.car {
 }
 
 section.car img {
-    max-width: 40%; 
-    height: auto; 
+    width: 500px; 
+    height: 500px; 
+    object-fit: cover;
     border-radius: 8px;
 }
 
